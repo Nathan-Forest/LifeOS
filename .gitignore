@@ -1,0 +1,62 @@
+# Environment & secrets
+.env
+.env.*
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# .NET build output
+bin/
+obj/
+out/
+
+# .NET runtime files
+*.user
+*.suo
+.vs/
+
+# NuGet
+*.nuget.targets
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Publish output
+publish/
+*.pubxml
+*.pubxml.user
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Visual Studio
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# Docker
+docker-compose.override.yml
+
+# EF Core - keep migrations, ignore snapshots if needed
+# Migrations/ # Don't ignore this - we want migrations in git
+
+# Test results
+TestResults/
+coverage/

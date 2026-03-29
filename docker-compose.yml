@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lifeos-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/lifeos.db
+      - Jwt__Secret=${JWT_SECRET}
+      - Jwt__Issuer=SecureAuthAPI
+      - Jwt__Audience=SecureAuthClients
+    ports:
+      - "5005:80"
+    volumes:
+      - ./data:/app/data
+
+volumes:
+  lifeos-data:
