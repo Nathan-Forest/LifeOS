@@ -1,0 +1,6 @@
+@LifeOS_HostAddress = http://localhost:5084
+
+GET {{LifeOS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
