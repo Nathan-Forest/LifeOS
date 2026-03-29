@@ -157,3 +157,4 @@ D:\learn_Coding\csharp\LifeOS\obj\Debug\net10.0\refint\LifeOS.dll
 D:\learn_Coding\csharp\LifeOS\obj\Debug\net10.0\LifeOS.pdb
 D:\learn_Coding\csharp\LifeOS\obj\Debug\net10.0\LifeOS.genruntimeconfig.cache
 D:\learn_Coding\csharp\LifeOS\obj\Debug\net10.0\ref\LifeOS.dll
+D:\learn_Coding\csharp\LifeOS\obj\Debug\net10.0\LifeOS.sourcelink.json
