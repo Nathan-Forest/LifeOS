@@ -17,6 +17,8 @@ services:
       - "5005:80"
     volumes:
       - ./data:/app/data
+    env_file:
+      - .env
 
 volumes:
   lifeos-data:
