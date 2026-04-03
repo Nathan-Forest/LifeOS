@@ -11,5 +11,5 @@ public class Milestone
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     // Navigation back to parent goal
-    public Goal Goal { get; set; } = null!;
+    public Goal? Goal { get; set; }
 }
