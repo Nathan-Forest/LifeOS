@@ -12,5 +12,5 @@ public class ProjectTask
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
     // Navigation back to parent project
-    public Project Project { get; set; } = null!;
+    public Project? Project { get; set; }
 }
