@@ -12,5 +12,5 @@ public class StudySession
     public int DurationMinutes => (int)(EndTime - StartTime).TotalMinutes;
 
     // Navigation back to parent topic
-    public StudyTopic Topic { get; set; } = null!;
+    public StudyTopic? Topic { get; set; }
 }
