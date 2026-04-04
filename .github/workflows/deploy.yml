@@ -10,7 +10,7 @@ jobs:
     runs-on: self-hosted
 
     steps:
-- name: Pull latest code
+      - name: Pull latest code
         run: |
           cd ~/apps/LifeOS
           git pull origin main
