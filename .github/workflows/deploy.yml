@@ -1,0 +1,14 @@
+- name: Pull latest code
+        run: |
+          cd ~/apps/LifeOS
+          git pull origin main
+
+      - name: Rebuild and restart container
+        run: |
+          cd ~/apps/LifeOS
+          docker-compose up --build -d
+
+      - name: Verify container is running
+        run: |
+          sleep 5
+          docker ps | grep lifeos
